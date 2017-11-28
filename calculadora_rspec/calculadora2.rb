@@ -4,13 +4,11 @@ class Calculadora
 	def adicao (n1, n2)
 		@res =	(n1 + n2)
 		return @res
-		puts "#{n1} + #{n2} = @res"
 	end
 
 	def subtracao(n1, n2)
 		@res =	(n1 - n2) * -1 
 		return @res
-		puts "#{n1} - #{n2} = @res"
 	end
 	
 
@@ -18,17 +16,14 @@ class Calculadora
 		if n2 != 0
 			@res =	(n1 / n2)
 			return @res.round(3)
-			puts "#{n1} / #{n2} = @res.round(3)"
 		else
 			return "Divisao Invalida!"
-			puts "Divisão Invalida!"
 		end
 	end
 
 	def multiplicacao(n1, n2)
 		@res =	(n1 * n2) 
 		return @res
-		puts "#{n1} / #{n2} = @res"
 	end
 end
 
