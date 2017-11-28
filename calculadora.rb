@@ -27,7 +27,7 @@ elsif operacao == 3
 		div = n1 / n2
 		puts "#{n1} / #{n2} = #{div.round(2)}"
 	else
-		puts "Divisao anulada - Nao tem divisao por 0!"
+		puts "Divisao Invalida! Numero nao pode ser dividido por 0!"
 	end
 elsif operacao == 4
 	multi = n1 * n2
