@@ -34,5 +34,3 @@ elsif operacao == 4
 	puts "#{n1} * #{n2} = #{multi}"
 end
 
-
-
