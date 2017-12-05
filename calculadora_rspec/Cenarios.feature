@@ -1,9 +1,8 @@
 # language: pt
 
-Funcionalidade: Desenvolvimento de uma Calculadora
+Funcionalidade: Criando uma calculadora
 
-Cenario: Realizar a busca do restaurente preferido
-Dado que esteja na pagina inicial do Meat
-Quando pesquisa o seu restaurente preferido na tela com a listagem dos restaurantes
-Entao visualizando o Perfil do Resturante Preferido
-E valida o cardapio on-line
+Cenario: Criar uma calculadora
+Dado Que a calculaora foi criada
+Quando realizar calculo com as operações
+Entao Visualizo o resultado e gero o relatório
