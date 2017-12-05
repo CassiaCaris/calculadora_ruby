@@ -47,6 +47,8 @@ describe Calculadora do
     expect(resultado).to eq(20)
   end
 
+puts "----------------------------------------------"
+
   #cenario de teste com numeros negativos
   it "Soma de -10 mais 2 deve ser -8" do
     calculo = Calculadora.new()
