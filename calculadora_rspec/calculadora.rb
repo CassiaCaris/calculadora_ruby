@@ -44,6 +44,10 @@ class Calculadora
 			return @res
 		end
 	end
+
+	def null
+		puts "Operacao Invalida!"
+	end
 end
 
 puts "Calculadora"
@@ -66,7 +70,6 @@ n2 = gets.chomp().to_f
 
 calculo = Calculadora.new
 
-
 if operacao == 1
 	calculo.adicao(n1, n2)
 elsif operacao == 2
@@ -76,9 +79,8 @@ elsif operacao == 3
 elsif operacao == 4
 	calculo.multiplicacao(n1, n2)
 else operacao == ""
-	calculo.erro
+	calculo.null
 end
-
 
 again = 0
 puts ("Deseja realizar uma nova conta?")
