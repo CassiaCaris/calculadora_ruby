@@ -1,10 +1,10 @@
-require_relative "calculadora"
+require_relative "calculadora_usando_classe"
 
 
 describe Calculadora do
   #cenario de teste com numeros positivos
   it "Soma de 20 mais 20 deve ser 40" do
-    calculo = Calculadora.new()
+    calculo = 
     # Act
     resultado = calculo.adicao(20, 20)
     # Assert
