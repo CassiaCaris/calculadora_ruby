@@ -33,4 +33,9 @@ ruby calculadora2.rb
 
 para gerar o relatorio com os testes unitários:
 
+- gerar relatorio em HTML
 rspec unit.rb --format htm --out relatorio.html
+
+- gerar relatorio em modo doc
+rspec unit.rb --format doc
+ 
