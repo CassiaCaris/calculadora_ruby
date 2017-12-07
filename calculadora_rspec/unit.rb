@@ -3,12 +3,14 @@ require_relative "calculadora"
 
 describe Calculadora do
   #cenario de teste com numeros positivos
-  it "Soma de 20 mais 20 deve ser 40" do
+  it "Soma de 20 mais 20 deve ser 40 e preencher 1 para novo calculo" do
     calculo = Calculadora.new()
     # Act
     resultado = calculo.adicao(20, 20)
     # Assert
     expect(resultado).to eq(40)
+
+    again = 1
   end
 
   #cenario de teste com numeros positivos
@@ -68,12 +70,14 @@ puts "----------------------------------------------"
   end
 
   #cenario de teste com numeros negativos
-  it "Divisao de -3 dividido -3 deve ser 1" do
+  it "Divisao de -3 dividido -3 deve ser 1 preencher 2 para encerrar a calculadora" do
     calculo = Calculadora.new()
     # Act
     resultado = calculo.divisao(-3, -3)
     # Assert
     expect(resultado).to eq(1)
+
+    again = 2
   end
 
   #cenario de teste com numeros negativos
