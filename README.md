@@ -23,6 +23,10 @@ Foi realizada alterações no desenvolvimento da calculadora com os criterios:
 - decimais até 2 casas
 - realizando o teste unitário (http://rspec.info/)
 
+Novos criterios:
+- Não permitir string ou numeração diferente das operações listadas;
+- inserido opção para realizar um novo calculo ou fechar a execução;
+
 para executar o arquivo calculadora2.rb para executar os comandos da calculadora:
 
 ruby calculadora2.rb
