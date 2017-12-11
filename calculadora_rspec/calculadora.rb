@@ -50,6 +50,8 @@ class Calculadora
 	end
 end
 
+
+
 puts "Calculadora"
 puts "-----------"
 
@@ -87,5 +89,5 @@ puts ("Deseja realizar uma nova conta?")
 puts ("1 - sim")
 puts ("2 - nao")
 again = gets.to_i
-system('clear')
+system('cls')
 end
