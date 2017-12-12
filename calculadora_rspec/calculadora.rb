@@ -15,7 +15,7 @@ class Calculadora
 	def subtracao(n1, n2)
 		@res =	(n1 - n2) 
 		if @res = -
-			@res * 1
+			@res * -1
 			puts "#{n1} - #{n2} = #{@res}"
 			return @res
 		end 		
