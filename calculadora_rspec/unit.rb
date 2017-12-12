@@ -12,12 +12,12 @@ describe Calculadora do
   end
 
   #cenario de teste com numeros positivos
-  it "Subtracao de 20 menos 45 deve ser -25" do
+  it "Subtracao de 20 menos 45 deve ser 25" do
     calculo = Calculadora.new()
     # Act
     resultado = calculo.subtracao(20, 45)
     # Assert
-    expect(resultado).to eq(-25)
+    expect(resultado).to eq(25.0)
   end
 
   #cenario de teste com numeros positivos  
@@ -30,12 +30,14 @@ describe Calculadora do
   end
 
   #cenario de teste com divisão por 0 
-  it "Divisao de 10 dividido 0 deve ser Divisao Invalida!" do
+  it "Divisao de 10 dividido 0 deve ser Divisao Invalida!  preencher 1 para encerrar a calculadora" do
     calculo = Calculadora.new()
     # Act
     resultado = calculo.divisao(10, 0)
     # Assert
     expect(resultado).to eq("Divisao Invalida!")
+
+    again = 1 
   end
 
   #cenario de teste com numeros positivos
@@ -59,21 +61,23 @@ puts "----------------------------------------------"
   end
 
    #cenario de teste com numeros negativos
-   it "Subtracao de -10 menos 2 deve ser -12" do
+   it "Subtracao de -10 menos 2 deve ser 12" do
     calculo = Calculadora.new()
     # Act
     resultado = calculo.subtracao(-10, 2)
     # Assert
-    expect(resultado).to eq(-12)
+    expect(resultado).to eq(12)
   end
 
   #cenario de teste com numeros negativos
-  it "Divisao de -3 dividido -3 deve ser 1" do
+  it "Divisao de -3 dividido -3 deve ser 1 preencher 2 para encerrar a calculadora" do
     calculo = Calculadora.new()
     # Act
     resultado = calculo.divisao(-3, -3)
     # Assert
     expect(resultado).to eq(1)
+
+    again = 2
   end
 
   #cenario de teste com numeros negativos
