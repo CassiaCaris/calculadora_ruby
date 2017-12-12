@@ -68,14 +68,12 @@ puts "----------------------------------------------"
   end
 
   #cenario de teste com numeros negativos
-  it "Divisao de -3 dividido -3 deve ser 1 preencher 2 para encerrar a calculadora" do
+  it "Divisao de -3 dividido -3 deve ser 1" do
     calculo = Calculadora.new()
     # Act
     resultado = calculo.divisao(-3, -3)
     # Assert
     expect(resultado).to eq(1)
-
-    again = 2
   end
 
   #cenario de teste com numeros negativos
