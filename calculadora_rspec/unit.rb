@@ -12,12 +12,12 @@ describe Calculadora do
   end
 
   #cenario de teste com numeros positivos
-  it "Subtracao de 20 menos 45 deve ser 25" do
+  it "Subtracao de 20 menos 45 deve ser -25" do
     calculo = Calculadora.new()
     # Act
     resultado = calculo.subtracao(20, 45)
     # Assert
-    expect(resultado).to eq(25.0)
+    expect(resultado).to eq(-25.0)
   end
 
   #cenario de teste com numeros positivos  
@@ -61,12 +61,12 @@ puts "----------------------------------------------"
   end
 
    #cenario de teste com numeros negativos
-   it "Subtracao de -10 menos 2 deve ser 12" do
+   it "Subtracao de -10 menos 2 deve ser -12" do
     calculo = Calculadora.new()
     # Act
     resultado = calculo.subtracao(-10, 2)
     # Assert
-    expect(resultado).to eq(12)
+    expect(resultado).to eq(-12)
   end
 
   #cenario de teste com numeros negativos
